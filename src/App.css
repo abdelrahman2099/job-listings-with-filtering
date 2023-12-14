@@ -1,0 +1,158 @@
+.small-font-size{
+    font-size:12px;
+}
+.small-margin{
+    margin-right: 7px;
+    padding: 0 9px;
+}
+.medium-margin{
+    margin-right:15px;
+}
+.font-size19{
+    font-size: 19px;
+}
+.new{
+    background-color : hsl(180, 29%, 50%);
+    color : white;
+    font-weight:500;
+}
+.featured{
+    background-color : hsl(180, 14%, 20%);
+    color : white;
+    font-weight:500;
+}
+.link-hover:hover {
+    color: hsl(180, 29%, 50%);
+}
+.darkcyan-color{
+    color: hsl(180, 29%, 50%);
+}
+.darkcyan-background-color{
+    background-color: hsl(180, 29%, 50%);
+}
+.font-weight-700{
+    font-weight: 700;
+}
+.font-weight-500{
+    font-weight: 500;
+}
+.font-size15{
+    font-size: 15px;
+}
+.link-hover{
+    text-decoration: none;
+}
+.dark-color{
+    color: hsl(180, 14%, 20%);
+}
+.tablets:hover{
+    background-color: hsl(180, 29%, 50%);
+    color: white;
+}
+.tablets{
+    text-decoration: none;
+}
+.lightcyan-background-color{
+    background-color: hsl(180, 31%, 95%)
+}
+.padding5px{
+    padding: 5px;
+}
+.margin10px{
+    margin: 10px;
+}
+.grey-color{
+    color: hsl(180, 8%, 52%);
+}
+.font-size12{
+    font-size: 12px;
+}
+.borderless{
+    border: none;
+}
+.button-hover:hover {
+    background-color: hsl(180, 14%, 20%);
+}
+#main-img{
+    background-image: url("../images/bg-header-desktop.svg");
+    height: 156px;
+    width:100%
+}
+.margin25px{
+    margin: 33px 20px;
+}
+.hidden{
+    display: none;
+}
+.paddingLR10{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.padding-10-30{
+    padding: 10px 30px;
+}
+.paddingLF10{
+    padding: 0 10px;
+}
+.margin9px{
+    margin: 9px;
+}
+.paddingLR9{
+    padding-right: 9px;
+    padding-left: 9px;
+}
+.margin20px{
+    margin: 20px;
+}
+.content-width{
+    width: 76.4%;
+}
+@media screen and (max-width: 375px) {
+    #main-img{
+        background-image: url("../images/bg-header-mobile.svg");
+    }
+    .techs {
+        justify-content: start!important;
+    }
+    .photo{
+        margin:10px;
+        position:absolute;
+        transform:translate(0%, -100%);
+    }
+    .small-height{
+        height:40px;
+    }
+    .hidden{
+        display: flex;
+    }
+    .mobile-font15{
+        font-size: 15px;
+    }
+    .mobile-marginL10{
+        margin-left: 10px;
+    }
+    .mobile-marginB30{
+        margin-bottom: 30px;
+    }
+    .mobile-padding-10{
+        padding: 10px;
+    }
+    .mobile-marginT15{
+        margin-top:15px ;
+    }
+    .mobile-margin-unset{
+        margin: unset;
+    }
+    .mobile-width{
+        width: 83%;
+    }
+    .mobile-marginR18{
+        margin-right: 18px;
+    }
+    .mobile-font17{
+        font-size: 16.5px;
+    }
+    .mobile-marginR11{
+        margin-right: 11px;
+    }
+}
