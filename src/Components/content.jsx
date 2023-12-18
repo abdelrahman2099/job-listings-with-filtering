@@ -5,7 +5,7 @@ export default function ({item,add}){
     let border= item.new&&item.featured ? "5px solid hsl(180, 29%, 50%)" : "uset";
     return(<div className="d-flex rounded col-12 flex-wrap margin10px mobile-marginB30 paddingLR10 mobile-padding-10" style={{backgroundColor:"white",boxShadow:"5px 10px 10px #D5EAED",borderLeft:border}}>
         <div className="photo margin25px">
-            <img className="small-height" src={`./src/assets/${item.logo}`}/>
+            <img className="small-height" src={item.logo}/>
         </div>
         <div className="d-flex flex-column justify-content-center flex-wrap mobile-marginL10 mobile-marginT15 ">
             <div className="d-flex mb-1 align-items-center">
