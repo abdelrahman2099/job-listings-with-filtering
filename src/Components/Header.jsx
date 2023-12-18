@@ -1,5 +1,4 @@
-import HeaderDesktopImg from "../../images/bg-header-desktop.svg"
-import HeaderMobileImg from "../../images/bg-header-mobile.svg"
+import 'bootstrap/dist/css/bootstrap.min.css'
 import IconRemove from "../../images/icon-remove.svg"
 import {useEffect, useState} from "react";
 
