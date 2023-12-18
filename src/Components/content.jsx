@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css'
 export default function ({item,add}){
     function addOnClick(item){
         add(item)
